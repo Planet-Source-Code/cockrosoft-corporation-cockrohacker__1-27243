@@ -1,0 +1,90 @@
+[Root]
+Most Recent Package=Hacker program ver1.0
+
+
+[Package|Hacker program ver1.0|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=a:\
+
+[Package|Hacker program ver1.0|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Hacker program ver1.0|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Hacker program ver1.0|Files Found]
+
+[Package|Hacker program ver1.0|Files Released]
+
+[Package|Hacker program ver1.0|Missing Dependency Information]
+
+[Package|Hacker program ver1.0|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\IrregForm.ocx=
+
+[Package|Hacker program ver1.0|Files Added]
+
+[Package|Hacker program ver1.0|Files Removed]
+
+[Package|Hacker program ver1.0|Files In Project]
+C:\programming\VB98\sourcecode7\Hack\Project1.exe=Yes
+C:\WINDOWS\SYSTEM\msvbvm60.dll=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\programming\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\IrregForm.ocx=Yes
+C:\WINDOWS\SYSTEM\Msvbvm50.dll=Yes
+C:\WINDOWS\SYSTEM\CTL3D32.DLL=Yes
+C:\WINDOWS\SYSTEM\MSSTKPRP.DLL=Yes
+C:\WINDOWS\SYSTEM\IrregForm.DEP=Yes
+C:\programming\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\programming\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\programming\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Hacker program ver1.0|Configure Registry Files]
+Applicable=No
+
+[Package|Hacker program ver1.0|Configure Remote Servers]
+Applicable=No
+
+[Package|Hacker program ver1.0|Install Locations]
+C:\programming\VB98\sourcecode7\Hack\Project1.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\programming\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\IrregForm.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Msvbvm50.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\CTL3D32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSSTKPRP.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\IrregForm.DEP=$(AppPath)
+C:\programming\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\programming\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\programming\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Hacker program ver1.0|Configure Shared Files]
+Applicable=Yes
+C:\programming\VB98\sourcecode7\Hack\Project1.exe=Yes
+C:\WINDOWS\SYSTEM\IrregForm.DEP=Yes
+
+[Package|Hacker program ver1.0|Distribution]
+Type=multi
+Size=720 KB
+Title=Hacker program ver 1.0
+
+[Package|Hacker program ver1.0|IconGroups]
+Group0=Hacker program ver 1.0 created by Prabir Krishna Shrestha
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Hacker program ver1.0|Hacker program ver 1.0 created by Prabir Krishna Shrestha]
+Icon1=Project1.exe
+Title1=Hacker program ver 1.0
+StartIn1=$(AppPath)
+Key1=Icon1
